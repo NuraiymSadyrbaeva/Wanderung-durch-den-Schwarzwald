@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1245px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+.header {
+  padding: 35px 0;
+}
+.conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.menu_link:hover {
+  background: linear-gradient(99.05deg, #bc3cd8 0.07%, #c54b8c 106.32%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.menu_link {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+}
+.menu_link::before {
+  content: "";
+  width: 9px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  left: 50px;
+  bottom: -8px;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+}
+.wanderung {
+  text-align: center;
+}
+.tourismus {
+  text-align: center;
+}
+body {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.bild {
+  text-align: center;
+}
+#my-tools {
+  text-align: center;
+}
+#second-title {
+  text-align: center;
+}
+.panoramabad {
+  color: #649ad8;
+}
+.wanderwege {
+  background-color: #a9b7e4;
+}
+footer {
+  background-color: #8a8485;
+  color: #fff;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 70px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-menu-link {
+  color: #000000;
+}
+.footer-menu-link:hover {
+  background: linear-gradient(99.05deg, #bc3cd8 0.07%, #c54b8c 106.32%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
